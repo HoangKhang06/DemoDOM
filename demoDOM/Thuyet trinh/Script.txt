@@ -1,0 +1,37 @@
+Slide 1
+​Hello everyone, and welcome to my presentation. My name is [Your Name], and today I will talk about the HTML DOM. In this presentation, we will explore what the DOM is, how it works, and how it can be used to build a practical To-Do List application. Let’s dive right in!
+Slide 2
+​First of all, today’s presentation consists of five main parts:
+1.​What is DOM?
+2.​The DOM Tree Structure.
+3.​Core DOM Manipulation with JavaScript.
+4.​DOM Events.
+5.​Mini Exercise.
+Slide 3
+​Let’s start with the first section: What exactly is the DOM? DOM stands for Document Object Model, which is an API for HTML. To understand the DOM, there are two important points to remember:
+​First, when a web page loads, the browser converts static HTML code into dynamic objects in the computer’s memory.
+​Second, the DOM allows JavaScript to add, modify, or delete web elements directly without reloading the page. In short, the DOM acts as a bridge that transforms static tags into live objects.
+Slide 4
+​Now, let’s look at how the DOM is organized. The DOM represents an HTML document as a tree structure, where everything is called a node. There are four main types of nodes:
+​Document Node: The root node that represents the entire web page.
+​Element Node: The HTML tags like <html>, <body>, or <h1>.
+​Attribute Node: The details inside tags, such as class or id.
+​Text Node: The actual text content displayed on the screen. Thanks to this parent-child structure, JavaScript can easily find exactly what needs to be changed.
+Slide 5
+​So, how do we actually control the DOM? The process usually follows a 3-step formula: Find the element, Modify the element, and Listen for events. Here are the main methods:
+A.​Selecting Elements: We can target elements using getElementById, getElementsByClassName, or querySelector.
+B.​Changing Content: We use .innerHTML to update the content of an element.
+C.​Changing Styles: We can modify CSS directly, for example, changing a paragraph's color to red using .style.color = "red".
+D.​Adding and Deleting: We can create new elements with createElement, add them with appendChild, or remove them with removeChild.
+Slide 7
+​Next, let’s talk about the "soul" of web interactivity: DOM Events. An event is an action triggered by the user or the system. You can think of the DOM as a listener that waits for these actions to trigger JavaScript code. Here are some common events:
+​onclick: Triggers when you click a button.
+​onmouseover / onmouseout: Triggers when the mouse moves over or away from an item.
+​onkeydown / onkeyup: Triggers when you press or release a key.
+​onload: Triggers when the page finishes loading.
+Slide 8
+​Finally, let’s put this into practice with a To-Do List application. The workflow is very simple:
+​First, the user enters the task content.
+​Second, when the user clicks the "Add" button, the DOM catches the onclick event and displays the task on the screen.
+​Third, users can click a "Delete" button to remove tasks they have finished. This small application shows how the DOM helps us create interactive and user-friendly web pages.
+​Ending: That is the end of my talk. Thank you for listening!
